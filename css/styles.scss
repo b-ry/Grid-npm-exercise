@@ -1,0 +1,18 @@
+body {
+  background:red;
+}
+
+a {
+  color: red;
+  &:hover {
+    text-decoration: none;
+    color: blue;
+  }
+}
+
+
+.call {
+  display: flex;
+  border: 1px solid red;
+
+}
